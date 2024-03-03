@@ -12,8 +12,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 
 public class MapperConvert {
-	@Autowired
-	ModelMapper modelMapper;
+
+	ModelMapper modelMapper = new ModelMapper();
 	//Entity to DTO
 	public ProductResponse getDTOFromEntity(Product product) {
 		return modelMapper.map(product, ProductResponse.class);
