@@ -13,10 +13,7 @@ public class Swaggerexample2Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Swaggerexample2Application.class, args);
 	}
-	@Bean
-	public ModelMapper getModelMapper() {
-		return new ModelMapper();
-	}
+
 	
 }
 
