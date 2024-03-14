@@ -1,3 +1,13 @@
+/**
+ * @author rajukshirsagar
+ * @package com.example.openApiDoc.config
+ * @date 03/03/24
+ * @time 4:15 PM
+ * @month Mar
+ * @year 2024
+ * @emailID raju.kshirsagar151@gmail.com
+ */
+
 package com.example.securingweb;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
@@ -10,7 +20,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @OpenAPIDefinition(info = @Info(title = "User Service", version = "3.0", description = "User Information"))
-@SecurityScheme(name = "JwtResponse", scheme = "bearer", type = SecuritySchemeType.HTTP, in = SecuritySchemeIn.HEADER)
+@SecurityScheme(name = "JwtResponse", scheme ="bearer", type = SecuritySchemeType.HTTP, in = SecuritySchemeIn.HEADER)
 public class SecuringWebApplication {
 
 	public static void main(String[] args) {
