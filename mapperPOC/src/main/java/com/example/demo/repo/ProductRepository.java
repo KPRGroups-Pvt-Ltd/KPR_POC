@@ -1,7 +1,7 @@
 
 /**
  * @author rajukshirsagar
- * @package com.example.openApiDoc.config
+ * @package com.example.demo
  * @date 03/03/24
  * @time 4:15 PM
  * @month Mar
