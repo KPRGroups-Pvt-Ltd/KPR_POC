@@ -1,5 +1,10 @@
 package com.ust.departmentservice.repository;
-
+/**
+ * Created by Sangharatna Davane
+ * Date : 27-03-2024
+ * Time : 19:34
+ * Project Name :KPR_POC
+ */
 import com.ust.departmentservice.model.Department;
 import org.springframework.stereotype.Repository;
 
